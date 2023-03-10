@@ -1,8 +1,14 @@
 # Welcome to Dockerize React Project Organization, 
 
-My Name is Deni Setiawan, I am Backend Dev & System Analyst at http://nexsoft.co.id/ from Indonesia.
-Loves writing and coding enthusiast who always keeps learning about software engineering skills for make me keep an update and strenghts skills??
+My Name is **Deni Setiawan**, I am **Backend Dev & System Analyst** at http://nexsoft.co.id/ from Indonesia.
+**Loves writing and coding enthusiast** who always **keeps learning** about software engineering skills for make me **keep an update and strenghts skills** 🚀
 
+
+### About Me
+| Profile     | URL                                                          | 
+|------------------|--------------|
+| Github | https://github.com/denitone |
+| Medium | https://deni-setiawan.medium.com/ |
 
 ## what is 'Dockerize React Project' organization
 this organization for learning how to dockerize React project for make the development and testing so easy and simple.
@@ -14,9 +20,12 @@ this organization for learning how to dockerize React project for make the devel
 - Create docker compose for setup the container 
 - run and testing the app
 
-## Repositories
-- drp-web
-- drp-backend
+### Repositories
+| Project Name     | Description  | URL Repository                                                          | 
+|------------------|--------------|-------------------------------------------------------------------------|
+| drp-documentation |Documetation Project | https://github.com/dockerize-react-project/drp-documentation                                        |
+| drp-mobile | Android project | https://github.com/denitone/drp-web                                         |
+| drp-backend |backend Project | https://github.com/denitone/drp-backend          
 
 ## Technologies
 ### dap-mobile
