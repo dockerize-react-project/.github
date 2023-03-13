@@ -21,11 +21,11 @@ this organization for learning how to dockerize React project for make the devel
 - run and testing the app
 
 ### Repositories
-| Project Name     | Description  | URL Repository                                                          | 
-|------------------|--------------|-------------------------------------------------------------------------|
-| drp-documentation | Documetation Project | https://github.com/denitone/drp-documentation                                        |
-| drp-web | Web project | https://github.com/denitone/drp-web                                         |
-| drp-backend | Backend Project | https://github.com/denitone/drp-backend          
+| Project Name     | Visibility     | Description  | URL Repository                                                          | 
+|------------------|--------------|--------------|-------------------------------------------------------------------------|
+| drp-documentation | public | Documetation Project | https://github.com/denitone/drp-documentation                                        |
+| drp-web | private | Web project | https://github.com/denitone/drp-web                                         |
+| drp-backend | private | Backend Project | https://github.com/denitone/drp-backend          
 
 ## Technologies
 ### dap-mobile
