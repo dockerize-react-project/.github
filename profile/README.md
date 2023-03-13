@@ -45,15 +45,15 @@ this organization for learning how to dockerize React project for make the devel
 
 # Run application using Docker Compose
 - clone `drp-documentation` repository on this link https://github.com/denitone/drp-documentation
-- after clone, open folder drp-documentation/drp in `terminal` or `cmd`
+- after clone, open folder `./drp-documentation/drp` in `terminal` or `cmd`
 - on `terminal` or `cmd` type this commands `docker-compose up -d`
 - wait until all aplication running well
 
 # Test and run application
 | container     | URL      | client access |
 |--------|--------------|--------------|
-| drp-web | http://localhost:3006 | browser |
-| drp-backend | http://localhost:8686 | postman or http client |
+| drp-web | http://localhost:3001 | browser |
+| drp-backend | http://localhost:8181 | postman or http client |
 | drp_mysql | http://localhost:3308 | terminal or Sql client  |
 | drp_redis | http://localhost:6379 | terminal or Redis client |
 
@@ -72,5 +72,13 @@ this organization for learning how to dockerize React project for make the devel
 - get by key `get <keyname>`
 - set key `set <keyname> <value>`
 - see TTL `ttl <keyname>`
+
+# Api Collection (Postman)
+- see on this link [DRP.postman_collection.json](https://github.com/denitone/drp-documentation/blob/main/postman/DRP.postman_collection.json)
+
+| Name     | URL                                                          | 
+|------------------|--------------| body |
+| Login | http://localhost:8181/login  |{"username":"admin","password":"admin"} |
+
 
 
