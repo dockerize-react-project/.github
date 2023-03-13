@@ -54,10 +54,23 @@ this organization for learning how to dockerize React project for make the devel
 |--------|--------------|--------------|
 | drp-web | https://localhost:3006 |  |
 | drp-backend | https://localhost:8686 |  |
-| drp_mysql | https://localhost:3308 | docker container exec -it drp_mysql /bin/sh mysql -u user -p password |
-| drp_redis | https://localhost:6379 | docker container exec -it drp_redis /bin/sh redis-cli -h localhost -p 6379 -a "password123" |
+| drp_mysql | https://localhost:3308 |   |
+| drp_redis | https://localhost:6379 |  |
 
 
-#
+# Mysql CLI
+- open cmd
+- type `docker container exec -it drp_mysql  mysql -u user -p` enter
+- type `password`
+- choose db_drp
+
+
+# Redis CLI
+- open cmd
+- type `docker container exec -it drp_redis  redis-cli -h 127.0.0.1 -p 6379 -a "password123"` enter
+- see all keys `keys *`
+- get by key `get <keyname>`
+- set key `set <keyname> <value>`
+- see TTL `ttl <keyname>`
 
 
