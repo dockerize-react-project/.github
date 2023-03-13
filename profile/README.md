@@ -52,10 +52,10 @@ this organization for learning how to dockerize React project for make the devel
 # Test and run application
 | container     | URL      | client access |
 |--------|--------------|--------------|
-| drp-web | https://localhost:3006 | browser |
-| drp-backend | https://localhost:8686 | postman or http client |
-| drp_mysql | https://localhost:3308 | terminal or Sql client  |
-| drp_redis | https://localhost:6379 | terminal or Redis client |
+| drp-web | http://localhost:3006 | browser |
+| drp-backend | http://localhost:8686 | postman or http client |
+| drp_mysql | http://localhost:3308 | terminal or Sql client  |
+| drp_redis | http://localhost:6379 | terminal or Redis client |
 
 
 # Mysql CLI
