@@ -43,8 +43,7 @@ this organization for learning how to dockerize React project for make the devel
 
 
 
-# Docker Compose
-
-`
-https://github.com/denitone/drp-documentation/tree/main/docker-compose/drp
-`
+# Run application using Docker Compose
+- clone `drp-documentation` repository on this link https://github.com/denitone/drp-documentation
+- after clone, open folder drp-documentation/drp in `terminal` or `cmd`
+- on `terminal` or `cmd` type this commands `docker-compose up -d`
