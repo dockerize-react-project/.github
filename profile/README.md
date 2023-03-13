@@ -47,3 +47,17 @@ this organization for learning how to dockerize React project for make the devel
 - clone `drp-documentation` repository on this link https://github.com/denitone/drp-documentation
 - after clone, open folder drp-documentation/drp in `terminal` or `cmd`
 - on `terminal` or `cmd` type this commands `docker-compose up -d`
+- wait until all aplication running well
+
+# Test and run application
+| container     | URL      | SYNTAX CLI 
+|--------|--------------|--------------|
+| drp-web | https://localhost:3006 |  |
+| drp-backend | https://localhost:8686 |  |
+| drp_mysql | https://localhost:3308 | docker container exec -it drp_mysql /bin/sh mysql -u user -p password |
+| drp_redis | https://localhost:6379 | docker container exec -it drp_redis /bin/sh redis-cli -h localhost -p 6379 -a "password123" |
+
+
+#
+
+
