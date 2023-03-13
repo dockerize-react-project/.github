@@ -7,7 +7,7 @@ My Name is **Deni Setiawan**, I am **Backend Dev & System Analyst** at http://ne
 ### About Me
 | Profile     | URL                                                          | 
 |------------------|--------------|
-| Github | https://github.com/denitone |
+| Github | https://github.com/denitiawan |
 | Medium | https://deni-setiawan.medium.com/ |
 
 ## what is 'Dockerize React Project' organization
@@ -23,9 +23,9 @@ this organization for learning how to dockerize React project for make the devel
 ### Repositories
 | Project Name     | Visibility     | Description  | URL Repository                                                          | 
 |------------------|--------------|--------------|-------------------------------------------------------------------------|
-| drp-documentation | public | Documetation Project | https://github.com/denitone/drp-documentation                                        |
-| drp-web | private | Web project | https://github.com/denitone/drp-web                                         |
-| drp-backend | private | Backend Project | https://github.com/denitone/drp-backend          
+| drp-documentation | public | Documetation Project | https://github.com/denitiawan/drp-documentation                                        |
+| drp-web | private | Web project | https://github.com/denitiawan/drp-web                                         |
+| drp-backend | private | Backend Project | https://github.com/denitiawan/drp-backend          
 
 ## Technologies
 ### drp-web
@@ -44,7 +44,7 @@ this organization for learning how to dockerize React project for make the devel
 
 
 # Run application using Docker Compose
-- clone `drp-documentation` repository on this link https://github.com/denitone/drp-documentation
+- clone `drp-documentation` repository on this link https://github.com/denitiawan/drp-documentation
 - after clone, open folder `./drp-documentation/drp` in `terminal` or `cmd`
 - on `terminal` or `cmd` type this commands `docker-compose up -d`
 - wait until all aplication running well
@@ -74,7 +74,7 @@ this organization for learning how to dockerize React project for make the devel
 - see TTL `ttl <keyname>`
 
 # Api Collection (Postman)
-- see on this link [DRP.postman_collection.json](https://github.com/denitone/drp-documentation/blob/main/postman/DRP.postman_collection.json)
+- see on this link [DRP.postman_collection.json](https://github.com/denitiawan/drp-documentation/blob/main/postman/DRP.postman_collection.json)
 
 | Name | URL | body |
 |--------|--------|--------|
