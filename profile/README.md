@@ -28,10 +28,10 @@ this organization for learning how to dockerize React project for make the devel
 | drp-backend | private | Backend Project | https://github.com/denitone/drp-backend          
 
 ## Technologies
-### dap-mobile
+### drp-web
 - React.js
 
-### dap-backend
+### drp-backend
 - Springboot 2.7^
 - Java 11
 - Spring Security
