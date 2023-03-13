@@ -76,8 +76,8 @@ this organization for learning how to dockerize React project for make the devel
 # Api Collection (Postman)
 - see on this link [DRP.postman_collection.json](https://github.com/denitone/drp-documentation/blob/main/postman/DRP.postman_collection.json)
 
-| Name     | URL                                                          | 
-|------------------|--------------| body |
+| Name | URL | body |
+|--------|--------|--------|
 | Login | http://localhost:8181/login  |{"username":"admin","password":"admin"} |
 
 
