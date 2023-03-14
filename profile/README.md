@@ -52,7 +52,7 @@ this organization for learning how to dockerize React project for make the devel
 ### 1.4. Repositories
 | Project Name     | Visibility     | Description  | URL Repository                                                          | 
 |------------------|--------------|--------------|-------------------------------------------------------------------------|
-| drp-documentation | public | Documetation Project | https://github.com/denitiawan/drp-documentation                                        |
+| drp-documentation | private | Documetation Project | https://github.com/denitiawan/drp-documentation                                        |
 | drp-web | private | Web project | https://github.com/denitiawan/drp-web                                         |
 | drp-backend | private | Backend Project | https://github.com/denitiawan/drp-backend          
 
@@ -60,7 +60,7 @@ this organization for learning how to dockerize React project for make the devel
 
 
 # 2. Run application using Docker Compose
-- clone `drp-documentation` repository on this link https://github.com/denitiawan/drp-documentation
+- clone `setup` repository on this link https://github.com/dockerize-react-project/setup
 - after clone, open folder `./drp-documentation/drp` in `terminal` or `cmd`
 - on `terminal` or `cmd` type this commands `docker-compose up -d`
 - wait until all aplication running well
@@ -94,7 +94,7 @@ this organization for learning how to dockerize React project for make the devel
 - see TTL `ttl <keyname>`
 
 ### 2.2.3.   Api Collection (Postman)
-- see on this link [DRP.postman_collection.json](https://github.com/denitiawan/drp-documentation/blob/main/postman/DRP.postman_collection.json)
+- see on this link [DRP.postman_collection.json](https://github.com/dockerize-react-project/postman/DRP.postman_collection.json)
 
 | Name | URL | Method | body |
 |--------|--------|--------|--------|
