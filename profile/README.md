@@ -10,7 +10,7 @@ My Name is **Deni Setiawan**, I am **Backend Dev & System Analyst** at http://ne
 | Github | https://github.com/denitiawan |
 | Medium | https://deni-setiawan.medium.com/ |
 
-## what is 'Dockerize React Project' organization
+# what is 'Dockerize React Project' organization
 this organization for learning how to dockerize React project for make the development and testing so easy and simple.
  
 ### Overviews
@@ -20,6 +20,36 @@ this organization for learning how to dockerize React project for make the devel
 - Create docker compose for setup the container 
 - run and testing the app
 
+
+### Frontend (Web)
+`React.js`
+`Redux Multi Store`
+`i18n Multi Resource`
+`Router`
+`Secure Routing`
+`Error Boundaries`
+`Variable Environtment .env`
+`React Hook`
+`Functional Component`
+`Loggin`
+`axios`
+`Docker`
+`Docker-compose`
+
+
+
+### Backend
+`Springboot 2.7^`
+`Java 11`
+`Spring Security`
+`JWT `
+`Oauth0`
+`Mysql`
+`liquibase (database migration)`
+`cors`
+`Docker`
+`Docker-compose`
+
 ### Repositories
 | Project Name     | Visibility     | Description  | URL Repository                                                          | 
 |------------------|--------------|--------------|-------------------------------------------------------------------------|
@@ -27,41 +57,22 @@ this organization for learning how to dockerize React project for make the devel
 | drp-web | private | Web project | https://github.com/denitiawan/drp-web                                         |
 | drp-backend | private | Backend Project | https://github.com/denitiawan/drp-backend          
 
-## Technologies
-### drp-web
-- React.js
-
-### drp-backend
-- Springboot 2.7^
-- Java 11
-- Spring Security
-- JWT 
-- Oauth0
-- Mysql
-- liquibase (database migration)
-- Docker
+# 
 
 
 
-# Run application using Docker Compose
+# 2. Run application using Docker Compose
 - clone `drp-documentation` repository on this link https://github.com/denitiawan/drp-documentation
 - after clone, open folder `./drp-documentation/drp` in `terminal` or `cmd`
 - on `terminal` or `cmd` type this commands `docker-compose up -d`
 - wait until all aplication running well
 
-# Test Frontend 
-| container     | URL      | client access |
-|--------|--------------|--------------|
-| drp-web | http://localhost:3001 | browser |
+## 2.1. Test Frontend 
+| container | URL   | client access | username | password |
+|--------|--------|--------|--------|--------|
+| drp-web | http://localhost:3001 | browser | admin | admin |
 
-### user & password
-| name | value |
-|----|----|
-| username | admin |
-| password | admin |
-
-
-# Test Backend
+## 2.2.  Test Backend
 | container     | URL      | client access |
 |--------|--------------|--------------|
 | drp-backend | http://localhost:8181 | postman or http client |
@@ -69,14 +80,14 @@ this organization for learning how to dockerize React project for make the devel
 | drp_redis | http://localhost:6379 | terminal or Redis client |
 
 
-# Mysql CLI
+### 2.2.1.  Mysql CLI
 - open cmd
 - type `docker container exec -it drp_mysql  mysql -u user -p` enter
 - type `password`
 - choose db_drp
 
 
-# Redis CLI
+### 2.2.2. Redis CLI
 - open cmd
 - type `docker container exec -it drp_redis  redis-cli -h 127.0.0.1 -p 6379 -a "password123"` enter
 - see all keys `keys *`
@@ -84,12 +95,13 @@ this organization for learning how to dockerize React project for make the devel
 - set key `set <keyname> <value>`
 - see TTL `ttl <keyname>`
 
-# Api Collection (Postman)
+### 2.2.3.   Api Collection (Postman)
 - see on this link [DRP.postman_collection.json](https://github.com/denitiawan/drp-documentation/blob/main/postman/DRP.postman_collection.json)
 
-| Name | URL | body |
-|--------|--------|--------|
-| Login | http://localhost:8181/login  |{"username":"admin","password":"admin"} |
+| Name | URL | Method | body |
+|--------|--------|--------|--------|
+| Login | http://localhost:8181/login  | POST |{"username":"admin","password":"admin"} |
+| . . . | . . . | . . . | . . . |
 
 
 
