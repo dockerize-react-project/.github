@@ -10,18 +10,18 @@ My Name is **Deni Setiawan**, I am **Backend Dev & System Analyst** at http://ne
 | Github | https://github.com/denitiawan |
 | Medium | https://deni-setiawan.medium.com/ |
 
-# what is 'Dockerize React Project' organization
+# 1. what is 'Dockerize React Project'
 this organization for learning how to dockerize React project for make the development and testing so easy and simple.
  
-### Overviews
-- implementation Dockerfile on React project
-- Build docker image from React project
-- push docker image to dockerhub
-- Create docker compose for setup the container 
-- run and testing the app
+### 1.1. Overviews
+- Created simple web C-PANEL application used react.js
+- Interactive Login and Dashboard page include communicated to backend server
+- Implementat a Dockerfile on react project, for creating the docker image 
+- Implement push docker image to dockerhub [https://hub.docker.com/repositories/denitiawan](https://hub.docker.com/repositories/denitiawan)
+- Implement docker-compose, for configure, setup and running the application (frontend & backend)
+- testing Frontend & Backend
 
-
-### Frontend (Web)
+### 1.2. Frontend (Web)
 `React.js`
 `Redux Multi Store`
 `i18n Multi Resource`
@@ -37,8 +37,7 @@ this organization for learning how to dockerize React project for make the devel
 `Docker-compose`
 
 
-
-### Backend
+### 1.3. Backend
 `Springboot 2.7^`
 `Java 11`
 `Spring Security`
@@ -50,7 +49,7 @@ this organization for learning how to dockerize React project for make the devel
 `Docker`
 `Docker-compose`
 
-### Repositories
+### 1.4. Repositories
 | Project Name     | Visibility     | Description  | URL Repository                                                          | 
 |------------------|--------------|--------------|-------------------------------------------------------------------------|
 | drp-documentation | public | Documetation Project | https://github.com/denitiawan/drp-documentation                                        |
@@ -58,7 +57,6 @@ this organization for learning how to dockerize React project for make the devel
 | drp-backend | private | Backend Project | https://github.com/denitiawan/drp-backend          
 
 # 
-
 
 
 # 2. Run application using Docker Compose
