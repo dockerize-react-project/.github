@@ -21,7 +21,7 @@ Here we will learning how to dockerize React project for make simplify the devel
 - Implement docker-compose, for configure, setup and running the application (frontend & backend)
 - testing Frontend & Backend
 
-### 1.2. Frontend (Web)
+### 1.2. Frontend Technologies
 `React.js`
 `Redux Multi Store`
 `i18n Multi Resource`
@@ -37,7 +37,7 @@ Here we will learning how to dockerize React project for make simplify the devel
 `Docker-compose`
 
 
-### 1.3. Backend
+### 1.3. Backend Technologies
 `Springboot 2.7^`
 `Java 11`
 `Spring Security`
