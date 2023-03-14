@@ -59,7 +59,7 @@ Here we will learning how to dockerize React project for make simplify the devel
 # 
 
 
-# 2. Run application using Docker Compose
+# 2. How to run the application? you can try it using Docker Compose
 - clone `setup` repository on this link https://github.com/dockerize-react-project/setup
 - after clone, open folder `./drp-documentation/drp` in `terminal` or `cmd`
 - on `terminal` or `cmd` type this commands `docker-compose up -d`
