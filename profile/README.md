@@ -11,8 +11,8 @@ My Name is **Deni Setiawan**, I am **Backend Dev & System Analyst** at http://ne
 | Medium | https://deni-setiawan.medium.com/ |
 
 # 1. what is 'Dockerize React Project'
-this organization for learning how to dockerize React project for make the development and testing so easy and simple.
- 
+Here we will learning how to dockerize React project for make simplify the development and testing. our application will running well, no matter with different machine or computer, because application will running on docker container.
+
 ### 1.1. Overviews
 - Created simple web C-PANEL application used react.js
 - Interactive Login and Dashboard page include communicated to backend server
