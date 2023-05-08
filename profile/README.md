@@ -1,16 +1,4 @@
-# Welcome  
-
-My Name is **Deni Setiawan**, I am **Backend & System Analyst** at http://nexsoft.co.id/ from Indonesia.
-**Loves writing and coding enthusiast** who always **keeps learning** about software engineering skills for make me **keep an update and strenghts skills** 🚀
-
-
-### About Me
-| Profile     | URL                                                          | 
-|------------------|--------------|
-| Github | https://github.com/denitiawan |
-| Medium | https://deni-setiawan.medium.com/ |
-
-# 1. what is 'Dockerize React Project'
+# Dockerize React Project
 This project will implementation Docker into reac.js project for make simplify the development and testing. our application will running well, no matter with different machine or computer, because application will running on docker container.
 
 ### 1.1. Overviews
@@ -102,4 +90,12 @@ This project will implementation Docker into reac.js project for make simplify t
 | . . . | . . . | . . . | . . . |
 
 
+### About Me
+My Name is **Deni Setiawan**, I am **Backend & System Analyst** at http://nexsoft.co.id/ from Indonesia.
+**Loves writing and coding enthusiast** who always **keeps learning** about software engineering skills for make me **keep an update and strenghts skills** 🚀
+
+| Profile     | URL                                                          | 
+|------------------|--------------|
+| Github | https://github.com/denitiawan |
+| Medium | https://deni-setiawan.medium.com/ |
 
